@@ -1,0 +1,29 @@
+.item-1{
+    background-color: lightseagreen;
+    height: 110px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: solid;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.box{
+    height: 160px;
+    border: solid;
+}
+.box:nth-child(1){
+    width: 160px;
+    background-color: yellow;
+}
+.box:nth-child(2){
+    width: 900px;
+}
+.oren{
+    background-color: orange;
+}
+.biru{
+    background-color: blue;
+}
